@@ -1,0 +1,76 @@
+.tour {
+  max-width: 1480px;
+  width: 100%;
+  margin: 1rem auto;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: "Mulish", sans-serif;
+}
+
+.tour-content {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.tour-image {
+  position: relative;
+  width: 469px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tour-image img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.tour-image .badge {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  background-color: #027e3f;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.tour-text {
+  flex: 1;
+}
+
+.tour-header .title {
+  font-size: 28px;
+  color: #004c99;
+  margin: 0 0 8px 0;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.tags span {
+  font-size: 14px;
+  color: #004c99;
+  text-decoration: underline;
+}
+
+.date-info span {
+  display: block;
+  font-size: 16px;
+  color: #212529;
+}
+
+.tour-body p {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #212529;
+}

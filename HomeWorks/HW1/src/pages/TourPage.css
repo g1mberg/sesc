@@ -1,0 +1,366 @@
+.tour {
+  max-width: 1480px;
+  width: 100%;
+  margin: 1rem auto;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  font-family: "Mulish", sans-serif;
+}
+
+.tour-content {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.tour-image {
+  position: relative;
+  width: 469px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tour-image img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.tour-image .badge {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  background-color: #027e3f;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.tour-text {
+  flex: 1;
+}
+
+.tour-header .title {
+  font-size: 28px;
+  color: #004c99;
+  margin: 0 0 8px 0;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.tags span {
+  font-size: 14px;
+  color: #004c99;
+  text-decoration: underline;
+}
+
+.date-info span {
+  display: block;
+  font-size: 16px;
+  color: #212529;
+}
+
+.tour-body p {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.more-info {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.more-info .link {
+  color: #004c99;
+  text-decoration: underline;
+}
+
+.offer p {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.offer .regulation {
+  color: #004c99;
+  text-decoration: underline;
+}
+
+.edit-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 18px;
+  background: #ff9800;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 9999;
+}
+
+.save-panel {
+  position: fixed;
+  bottom: 20px;
+  right: 150px;
+  background: white;
+  padding: 12px 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  gap: 10px;
+  z-index: 9999;
+}
+
+.save-btn,
+.cancel-btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+}
+
+.save-btn {
+  background: #4caf50;
+  color: white;
+}
+
+.cancel-btn {
+  background: #f44336;
+  color: white;
+}
+
+.tour-prices {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #027e3f;
+    padding: 24px 16px;
+    color: #fff;
+    font-family: "Mulish", Helvetica, sans-serif;
+}
+
+.tour-prices .list {
+    display: flex;
+    justify-content: center;
+}
+
+.tour-prices-header h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.tour-price {
+    flex: 1 0 0%;
+    max-width: 30rem;
+    background-color: #fff;
+    color: #027e3f;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.tour-price-type {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.tour-price-installment {
+    display: flex;
+    align-items: baseline;
+    font-size: 28px;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.tour-price-installment .installments {
+    font-weight: 200;
+}
+
+.tour-price-installment .currency,
+.tour-price-installment .amount,
+.tour-price-installment .cents {
+    font-weight: 700;
+}
+
+.tour-price-single {
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.request {
+    font-family: 'Libre Franklin', Helvetica, sans-serif;
+    max-width: 1184px;
+    width: 100%;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.request .request-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.request .request-header .title {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    background-color: #f6be00;
+    border-radius: 8px;
+    font-family: 'Mulish', Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 1.25rem;
+    color: #10100e;
+    text-align: center;
+}
+
+.request-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.request-info .subtitle {
+    margin: 0 0 1rem 0;
+    font-size: 1.125rem;
+    color: #027e3f;
+    font-weight: 200;
+}
+
+.request-info .description {
+    margin: 0 0 2rem 0;
+    font-size: 1.125rem;
+    color: #212529;
+    font-weight: 100;
+}
+
+.request-info .important {
+    margin: 0;
+    font-size: 0.9375rem;
+    color: #212529;
+    font-weight: 100;
+}
+
+.request .request-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.request .request-form .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.request .request-form input {
+    height: 58px;
+    font-size: 0.9375rem;
+    color: rgba(33, 37, 41, 0.65);
+    padding: 0 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    box-sizing: border-box;
+}
+
+.request .request-form .form-row input {
+    flex: 1;
+    width: auto;
+}
+
+.request .request-form > input {
+    width: 100%;
+}
+
+.request .request-form .submit-button {
+    align-self: center;
+    padding: 0.5rem 1.25rem;
+    border: none;
+    border-radius: 160px;
+    background-color: #027ac7;
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.payment-section {
+    margin: 0rem auto;
+    width: 100%;
+    max-width: 1448px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-sizing: border-box;
+}
+
+.payment-section .title {
+    font-family: var(--heading-font, Arial, sans-serif);
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #004c99;
+    text-align: center;
+    margin: 0;
+}
+
+.payment-section .subtitle {
+    font-family: var(--heading-font, Arial, sans-serif);
+    font-weight: 600;
+    font-size: 1rem;
+    color: #004c99;
+    text-align: center;
+    margin: 0;
+}
+
+.payment-section .text {
+    font-family: var(--text-font, "Libre Franklin", sans-serif);
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: #212529;
+    margin: 0;
+}
+
+.payment-section .separator {
+    border: none;
+    border-top: 1px solid rgba(33, 37, 41, 0.25);
+    margin: 8px 0;
+}
+
+.payment-section .document-list {
+    list-style: disc;
+    padding-left: 32px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}

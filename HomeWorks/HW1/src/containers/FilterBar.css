@@ -1,0 +1,25 @@
+.main .filter {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 25%;
+  max-width: 338px;
+  padding: 0 1rem;
+  font-family: "Mulish", sans-serif;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-reset :only-child {
+  width: 100%;
+  padding: 12px;
+  background: white;
+  border: 1px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}

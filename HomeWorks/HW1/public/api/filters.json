@@ -1,0 +1,5 @@
+{
+  "origins": ["Curitiba", "Londrina", "Maringá", "Foz do Iguaçu", "Ponta Grossa"],
+  "destinations": ["Gramado", "Florianópolis", "Bonito", "Salvador", "Rio de Janeiro", "São Paulo", "Buenos Aires", "Chapada Diamantina"],
+  "tags": ["Rodoviário", "Aéreo", "Nacional", "Internacional", "Cultural", "Aventura"]
+}
