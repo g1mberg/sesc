@@ -1,0 +1,56 @@
+[
+  {
+    "id": "dates",
+    "type": "daterange",
+    "label": "Datas",
+    "tourField": "date"
+  },
+  {
+    "id": "originCity",
+    "type": "search",
+    "label": "Cidade de origem",
+    "placeholder": "Digite a cidade...",
+    "tourField": "origin",
+    "options": ["Curitiba", "Londrina", "Maringá", "Foz do Iguaçu", "Ponta Grossa"]
+  },
+  {
+    "id": "maxCost",
+    "type": "number",
+    "label": "Valor máximo",
+    "placeholder": "Ex: 500",
+    "suffix": "R$",
+    "tourField": "cost"
+  },
+  {
+    "id": "maxCost2",
+    "type": "number",
+    "label": "Valor máximo",
+    "placeholder": "Ex: 500",
+    "suffix": "R$",
+    "tourField": "cost"
+  },
+  {
+    "id": "sortBy",
+    "type": "select",
+    "label": "Ordenar por",
+    "options": [
+      { "value": "price", "label": "Preço" },
+      { "value": "date", "label": "Data" }
+    ]
+  },
+  {
+    "id": "tags",
+    "type": "variants",
+    "label": "Tipo de Excursão",
+    "tourField": "tags",
+    "options": ["Rodoviário", "Aéreo", "Nacional", "Internacional", "Cultural", "Aventura"]
+  },
+  {
+    "id": "destination",
+    "type": "search",
+    "label": "Destino",
+    "placeholder": "Digite o destino...",
+    "tourField": "destination",
+    "options": ["Gramado", "Florianópolis", "Bonito", "Salvador", "Rio de Janeiro", "São Paulo", "Buenos Aires", "Chapada Diamantina"]
+  }
+]

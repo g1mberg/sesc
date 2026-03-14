@@ -1,0 +1,6 @@
+@sesc.API_HostAddress = http://localhost:5122
+
+GET {{sesc.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
