@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(cd \"C:\\\\kfu\\\\oris\\\\SecondSemestry\\\\HomeWork1\\\\Front\" && npm run dev 2>&1 | head -50)"
-    ]
-  }
-}
